@@ -553,7 +553,6 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -4280,6 +4279,7 @@ input[type="button"].btn-block {
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
   color: rgba(0, 0, 0, 0.9);
+
 }
 
 .navbar-dark .navbar-brand {
@@ -4296,6 +4296,7 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: rgba(255, 255, 255, 0.75);
+
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {

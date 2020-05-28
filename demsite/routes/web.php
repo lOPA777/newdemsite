@@ -32,3 +32,7 @@ Route::get('/category/{key}', Newsbd_in_category_cont::class)->name('new_in_cate
 //Route::get('/contacts', function () {
 //    return view('Contacts');            // легкий контролер для страницы
 //})->name('Contacts');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
